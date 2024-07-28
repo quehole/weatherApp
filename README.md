@@ -8,6 +8,7 @@ A simple weather app that provides current weather and forecast information for 
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [License](#license)
 
 ## Demo
 
@@ -29,6 +30,15 @@ You can see a live demo of the app [here](#).
     ```sh
     cd weatherApp
     ```
+3. Get your API key from OpenWeatherMap:
+    - Go to [OpenWeatherMap](https://home.openweathermap.org/users/sign_up) and sign up for a free account.
+    - After signing in, go to the [API keys](https://home.openweathermap.org/api_keys) section of your account.
+    - Generate a new API key.
+
+4. Replace the placeholder API key in `app.js` with your actual API key:
+    ```javascript
+    const apiKey = 'your api key';
+    ```
 
 ## Usage
 
@@ -37,3 +47,7 @@ You can see a live demo of the app [here](#).
     open index.html
     ```
 2. Enter a city name and click the "Search" button to get the current weather and forecast.
+
+## License
+
+This project is licensed under the MIT License.
