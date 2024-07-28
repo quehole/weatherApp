@@ -8,7 +8,6 @@ A simple weather app that provides current weather and forecast information for 
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 
 ## Demo
 
